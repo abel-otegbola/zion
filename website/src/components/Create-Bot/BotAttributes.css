@@ -1,0 +1,206 @@
+select {
+  display: flex;
+  border: 4px solid #68eced;
+  border-radius: 10px;
+  color: #68eced;
+  font-family: 'Poppins SemiBold';
+  font-size: 30px;
+  justify-content: center;
+  padding: 20px 0;
+  margin-top: 5%;
+  cursor: pointer;
+  width: 100%;
+  background: black;
+}
+
+.bot-col1 {
+  float: left;
+  margin-left: 12%;
+  width: 35%;
+}
+.toast-css {
+  font-family: 'Poppins Semibold';
+}
+
+.bot-col2 {
+  float: left;
+  margin-left: 5%;
+  width: 35%;
+}
+
+.done-btn {
+  margin-left: 38%;
+  margin-top: 5%;
+}
+
+.ant-select-multiple.bot-filter {
+  border: 4px solid #68eced;
+  border-radius: 10px;
+  padding: 10px;
+  font-family: 'Poppins Semibold';
+  font-size: 30px;
+  text-transform: uppercase;
+  color: #68eced;
+}
+
+.ant-select-multiple.bot-filter .ant-select-selection-placeholder {
+  color: #68eced;
+  text-align: center;
+}
+
+.filter-text.bot-filter {
+  font-family: 'Poppins Semibold';
+  font-size: 20px;
+  color: aqua;
+  margin: 0;
+  padding: 5px 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.ant-select-dropdown {
+  border: 4px solid rgb(104, 206, 222) !important;
+  border-radius: 10px !important;
+  margin-top: 5px !important;
+}
+
+.ant-select-multiple.bot-filter .ant-select-selection-item {
+  height: auto;
+  align-items: center;
+}
+
+.ant-select-multiple.bot-filter
+  .ant-select-selection-item
+  .filter-option-div
+  .filter-text {
+  font-size: 18px !important;
+}
+
+.ant-select-multiple.bot-filter .ant-select-clear {
+  width: 20px !important;
+  height: auto !important;
+}
+
+.ant-select-multiple.bot-filter .ant-select-clear svg {
+  width: 20px !important;
+  height: auto !important;
+}
+
+@media screen and (max-width: 5140px) {
+  .ant-select-multiple.bot-filter {
+    margin: 20px 0 !important;
+    border-radius: 35px !important;
+    padding: 30px 15px !important;
+    font-size: 70px !important;
+  }
+
+  .primary-header.alert-head {
+    font-size: 120px !important;
+  }
+  .ant-select-multiple.bot-filter
+    .ant-select-selection-item
+    .filter-option-div
+    .filter-text {
+    font-size: 45px !important;
+  }
+
+  .ant-select-selection-item-remove span.anticon-close svg {
+    width: 45px !important;
+    height: auto !important;
+  }
+  span.ant-select-selection-item-remove {
+    width: 50px !important;
+  }
+  .filter-text {
+    font-size: 50px !important;
+    margin: 20px 0 !important;
+  }
+}
+
+@media screen and (max-width: 4140px) {
+  .ant-select-multiple.bot-filter {
+    margin: 20px 0 !important;
+    border-radius: 35px !important;
+    padding: 30px 15px !important;
+    font-size: 70px !important;
+  }
+
+  .primary-header.alert-head {
+    font-size: 100px !important;
+  }
+}
+
+@media screen and (max-width: 2750px) {
+  .primary-header.alert-head {
+    font-size: 80px !important;
+  }
+}
+
+@media screen and (max-width: 1920px) {
+  .primary-header.alert-head {
+    font-size: 45px !important;
+    margin: 10px auto !important;
+  }
+  .ant-select-multiple.bot-filter {
+    border-radius: 15px !important;
+    padding: 10px !important;
+    font-size: 30px !important;
+    margin: 0 !important;
+  }
+  .filter-text.bot-filter {
+    font-size: 20px !important;
+    margin: 0 !important;
+    padding: 5px 0 !important;
+  }
+  .ant-select-multiple.bot-filter
+    .ant-select-selection-item
+    .filter-option-div
+    .filter-text {
+    font-size: 18px !important;
+  }
+  .ant-select-selection-item-remove span.anticon-close svg {
+    width: 15px !important;
+    height: auto !important;
+  }
+  span.ant-select-selection-item-remove {
+    width: 25px !important;
+  }
+}
+
+@media screen and (max-width: 552px) {
+  .ant-select-multiple.bot-filter {
+    font-size: 20px !important;
+  }
+  .ant-select-item {
+    font-size: 12px !important;
+    line-height: 14px !important;
+  }
+  .done-btn {
+    margin: 0 !important;
+  }
+  .done-btn button.my-btn {
+    margin: 30px 0 !important;
+  }
+  .cross-button.no-marg-mobile {
+    margin: 0 !important;
+  }
+  .bot-info span {
+    overflow-x: auto;
+    width: auto;
+    display: block;
+    margin: 0 15px;
+  }
+  .filter-option-div {
+    padding: 5px 0 !important;
+  }
+  .ant-select-multiple.bot-filter
+    .ant-select-selection-item
+    .filter-option-div
+    .filter-text {
+    font-size: 14px !important;
+  }
+  .primary-header.alert-head {
+    font-size: 30px !important;
+    margin: 20px 0 !important;
+  }
+}

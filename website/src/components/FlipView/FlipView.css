@@ -1,0 +1,147 @@
+/* .ant-modal.flip-modal {
+  padding: 0;
+  top: 50%;
+  transform: translateY(-50%);
+} */
+
+.flip-modal .ant-modal-content .ant-modal-close {
+  left: 2%;
+  background-color: #435560;
+  display: flex;
+  width: fit-content;
+  border-radius: 50%;
+  top: 8%;
+}
+
+.flip-modal .ant-modal-content .ant-modal-close span.ant-modal-close-x {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  width: 40px;
+  height: 40px;
+}
+
+.flip-modal .ant-modal-content .ant-modal-close span.ant-modal-close-x svg {
+  fill: #fff;
+  width: 25px;
+  height: auto;
+}
+
+.flip-modal .ant-modal-content {
+  padding: 50px 0px;
+  background-color: #252633;
+  border-radius: 15px;
+  border: 0.5px solid #000;
+  opacity: 0.8;
+}
+
+.flip-modal .ant-modal-content button.next-btn {
+  position: relative;
+  bottom: 0;
+  margin: 50px auto;
+  margin-bottom: 0;
+  display: block;
+  width: auto;
+}
+
+.next-step-content {
+  position: absolute;
+  margin-bottom: 40px;
+}
+
+h1.step-head {
+  font-family: 'Black Chancery';
+  font-size: 80px;
+  color: rgb(54 30 16);
+  text-align: center;
+}
+
+p.step-txt,
+p.step-txt span {
+  font-family: 'Black Chancery';
+  color: rgb(54 30 16);
+  font-size: 40px;
+}
+
+p.step-txt span {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 5140px) {
+  h1.step-head {
+    font-size: 180px;
+  }
+  p.step-txt,
+  p.step-txt span {
+    font-size: 115px;
+  }
+}
+
+@media screen and (max-width: 4140px) {
+  h1.step-head {
+    font-size: 160px;
+  }
+  p.step-txt,
+  p.step-txt span {
+    font-size: 95px;
+  }
+}
+
+@media screen and (max-width: 3540px) {
+  h1.step-head {
+    font-size: 140px;
+  }
+  p.step-txt,
+  p.step-txt span {
+    font-size: 75px;
+  }
+}
+
+@media screen and (max-width: 2700px) {
+  h1.step-head {
+    font-size: 105px;
+  }
+  p.step-txt,
+  p.step-txt span {
+    font-size: 55px;
+  }
+}
+
+@media screen and (max-width: 2200px) {
+  h1.step-head {
+    font-size: 80px;
+  }
+  p.step-txt,
+  p.step-txt span {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 1500px) {
+  h1.step-head {
+    font-size: 70px;
+  }
+  p.step-txt,
+  p.step-txt span {
+    font-size: 35px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .next-step-content {
+    margin: 0 125px;
+  }
+}
+
+@media screen and (max-width: 552px) {
+  .next-step-content {
+    margin: 0 50px;
+  }
+  h1.step-head {
+    font-size: 40px;
+  }
+  p.step-txt,
+  p.step-txt span {
+    font-size: 25px;
+  }
+}

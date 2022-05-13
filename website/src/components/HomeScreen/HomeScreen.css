@@ -1,0 +1,414 @@
+.home-screen-grid {
+  margin-top: 0px !important;
+}
+
+h1.explore-header {
+  font-family: 'Poppins Semibold';
+  color: #fff;
+  line-height: initial;
+  width: 95%;
+}
+
+h1.explore-header span.blue {
+  background-image: linear-gradient(
+    90deg,
+    rgba(8, 26, 73, 1) -50%,
+    rgba(86, 255, 225, 1)
+  );
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+h3.explore-sub-head {
+  font-family: 'Poppins';
+  color: #fff;
+}
+
+button.explore-btn {
+  font-family: 'Poppins Semibold';
+  color: #0e313e;
+  background-color: #6fece8;
+  border-radius: 24px;
+}
+
+button.explore-btn:hover {
+  background-color: #68cede;
+}
+
+.explore-figures {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.figures {
+  display: block;
+}
+
+.figures:first-child {
+  padding-left: 0;
+}
+
+.figures:last-child {
+  border: none;
+}
+
+p.numbers {
+  font-family: 'Poppins Semibold';
+  color: #fff;
+  letter-spacing: 0.5px;
+  margin: 0;
+}
+
+p.category {
+  font-family: 'Poppins';
+  color: #fff;
+  letter-spacing: 0.5px;
+  margin: 0;
+}
+
+.explore-nft-img {
+  position: relative;
+}
+
+.explore-nft-img img, .explore-nft-img {
+  width: 100%;
+  height: auto;
+}
+
+.img-corner {
+  width: 61px;
+  height: 61px;
+  position: absolute;
+  border-top: solid 30px transparent;
+  border-left: solid 30px #56ffe1;
+  border-bottom: solid 30px transparent;
+}
+
+.img-corner.top {
+  transform: rotateZ(225deg);
+  top: -30px;
+  left: -31px;
+}
+
+.img-corner.bottom {
+  bottom: -27px;
+  right: 2px;
+  transform: rotateZ(40deg);
+}
+
+.img-corner::after {
+  content: '';
+  position: absolute;
+  top: -29px;
+  left: -29px;
+  height: 0px;
+  width: 0px;
+  border-top: solid 30px transparent;
+  border-left: solid 38px #10323f;
+  border-bottom: solid 30px transparent;
+}
+
+@media screen and (max-width: 5140px) {
+  .home-screen-grid {
+    margin-top: 240px !important;
+  }
+  h1.explore-header {
+    font-size: 150px;
+  }
+  h3.explore-sub-head {
+    font-size: 95px;
+    line-height: 145px;
+  }
+  button.explore-btn {
+    border-radius: 44px;
+    padding: 55px 220px;
+    font-size: 70px;
+    margin: 60px 0;
+  }
+  .figures {
+    padding: 0px 130px;
+    border-right: 1.5px solid rgba(250, 250, 250, 26%);
+  }
+  p.numbers {
+    font-size: 130px;
+  }
+  p.category {
+    font-size: 60px;
+  }
+  .img-corner {
+    width: 150px;
+    height: 150px;
+    border-top: solid 75px transparent;
+    border-left: solid 75px #56ffe1;
+    border-bottom: solid 75px transparent;
+  }
+  .img-corner::after {
+    top: -76px;
+    left: -72px;
+    border-top: solid 75px transparent;
+    border-left: solid 78px #10323f;
+    border-bottom: solid 75px transparent;
+  }
+  .img-corner.top {
+    transform: rotateZ(225deg);
+    top: -75px;
+    left: -76px;
+  }
+  .img-corner.bottom {
+    bottom: -75px;
+    right: -75px;
+    transform: rotateZ(45deg);
+  }
+  .explore-nft-img img {
+    border: 1.5px solid #56ffe1;
+  }
+}
+
+@media screen and (max-width: 4540px) {
+  .home-screen-grid {
+    margin-top: 80px !important;
+  }
+}
+
+@media screen and (max-width: 4140px) {
+  .home-screen-grid {
+    margin-top: 60px !important;
+  }
+  h1.explore-header {
+    font-size: 130px;
+  }
+  h3.explore-sub-head {
+    font-size: 75px;
+    line-height: 125px;
+  }
+  button.explore-btn {
+    border-radius: 34px;
+    padding: 50px 200px;
+    font-size: 50px;
+    margin: 50px 0;
+  }
+  p.numbers {
+    font-size: 110px;
+  }
+  p.category {
+    font-size: 50px;
+  }
+}
+
+@media screen and (max-width: 3540px) {
+  .home-screen-grid {
+    margin-top: 65px !important;
+  }
+
+  h1.explore-header {
+    font-size: 100px;
+  }
+  h3.explore-sub-head {
+    font-size: 65px;
+    line-height: 100px;
+  }
+  button.explore-btn {
+    border-radius: 24px;
+    padding: 40px 170px;
+    font-size: 40px;
+    margin: 40px 0;
+  }
+  p.numbers {
+    font-size: 90px;
+  }
+  p.category {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 2700px) {
+  .home-screen-grid {
+    margin-top: 25px !important;
+  }
+
+  h1.explore-header {
+    font-size: 75px;
+  }
+  h3.explore-sub-head {
+    font-size: 45px;
+    line-height: 75px;
+  }
+  button.explore-btn {
+    border-radius: 24px;
+    padding: 30px 130px;
+    font-size: 30px;
+    margin: 35px 0;
+  }
+  .figures {
+    padding: 0px 80px;
+    border-right: 1px solid rgba(250, 250, 250, 26%);
+  }
+  p.numbers {
+    font-size: 60px;
+  }
+  p.category {
+    font-size: 30px;
+  }
+  .img-corner {
+    width: 120px;
+    height: 120px;
+    border-top: solid 60px transparent;
+    border-left: solid 60px #56ffe1;
+    border-bottom: solid 60px transparent;
+  }
+
+  .img-corner::after {
+    top: -60px;
+    left: -58px;
+    border-top: solid 60px transparent;
+    border-left: solid 68px #10323f;
+    border-bottom: solid 60px transparent;
+  }
+
+  .img-corner.top {
+    transform: rotateZ(225deg);
+    top: -60px;
+    left: -60px;
+  }
+  .img-corner.bottom {
+    bottom: -60px;
+    right: -60px;
+    transform: rotateZ(45deg);
+  }
+}
+
+@media screen and (max-width: 1920px) {
+  .home-screen-grid {
+    margin-top: 50px !important;
+  }
+
+  h1.explore-header {
+    font-size: 65px;
+  }
+
+  h3.explore-sub-head {
+    font-size: 28px;
+    letter-spacing: 0.5px;
+    line-height: 45px;
+  }
+
+  button.explore-btn {
+    border-radius: 24px;
+    padding: 26px 105px;
+    font-size: 20px;
+    margin: 20px 0;
+  }
+
+  .explore-figures {
+    margin: 20px 0;
+  }
+
+  .figures {
+    padding: 0px 30px;
+    border-right: 1px solid rgba(250, 250, 250, 26%);
+  }
+
+  p.numbers {
+    font-size: 35px;
+    margin-bottom: 0px;
+  }
+
+  p.category {
+    font-size: 16px;
+  }
+
+  .explore-nft-img {
+    position: relative;
+  }
+
+  .explore-nft-img img {
+    border: 1px solid #56ffe1;
+  }
+
+  .img-corner {
+    width: 61px;
+    height: 61px;
+    border-top: solid 30px transparent;
+    border-left: solid 30px #56ffe1;
+    border-bottom: solid 30px transparent;
+  }
+
+  .img-corner.top {
+    transform: rotateZ(225deg);
+    top: -30px;
+    left: -31px;
+  }
+
+  .img-corner.bottom {
+    bottom: -30px;
+    right: -30px;
+    transform: rotateZ(45deg);
+  }
+
+  .img-corner::after {
+    top: -29px;
+    left: -29px;
+    height: 0px;
+    border-top: solid 30px transparent;
+    border-left: solid 38px #10323f;
+    border-bottom: solid 30px transparent;
+  }
+}
+
+@media screen and (max-width: 1500px) {
+  .home-screen-grid {
+    margin-top: 0px !important;
+  }
+  h1.explore-header {
+    font-size: 50px;
+  }
+
+  h3.explore-sub-head {
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+  button.explore-btn {
+    border-radius: 16px;
+    padding: 16px 80px;
+    font-size: 18px;
+  }
+
+  .img-corner.bottom {
+    bottom: -31px;
+    right: -31px;
+    transform: rotateZ(45deg);
+  }
+}
+
+@media screen and (max-width: 552px) {
+  h1.explore-header {
+    font-size: 30px;
+  }
+  h3.explore-sub-head {
+    font-size: 18px;
+    line-height: 30px;
+  }
+  button.explore-btn {
+    border-radius: 12px;
+    padding: 10px 50px;
+    font-size: 16px;
+    margin: 15px 0;
+  }
+  .figures {
+    padding: 0px 20px;
+  }
+  p.numbers {
+    font-size: 18px;
+  }
+  p.category {
+    font-size: 12px;
+  }
+  .img-corner.bottom {
+    bottom: -32px;
+    right: -30px;
+    transform: rotateZ(46deg);
+  }
+}

@@ -1,0 +1,137 @@
+.mob-token-img-div {
+  display: block;
+  width: 80%;
+  margin: 35px auto 35px;
+}
+
+img.mob-token-img {
+  width: 100%;
+  box-shadow: 0px 0px 40px -10px #6fece8;
+  border-radius: 20px;
+  height: 320px;
+}
+
+h1.mob-token-name {
+  font-family: 'Inter';
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 32px;
+  margin: 0;
+  line-height: inherit;
+  font-weight: bold;
+}
+
+.mob-token-marketplace {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Inter';
+  color: #525252;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+span.eden-icon svg {
+  width: 27px;
+  height: auto;
+  margin-right: 7px;
+}
+
+.mob-token-rank-price {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 15px;
+  margin-top: 20px;
+}
+
+.mob-token-rank-price .rank p.head,
+.mob-token-rank-price .price p.head {
+  font-family: 'Inter';
+  color: #525252;
+  font-size: 18px;
+  margin: 0 0 20px;
+  font-weight: 500;
+  text-transform: capitalize !important;
+}
+
+.mob-token-rank-price .rank p.rank-number {
+  font-family: 'Segoe UI Bold';
+  font-size: 20px;
+  color: #6fece8;
+  letter-spacing: 1px;
+  margin: 0;
+}
+
+.mob-token-rank-price .price p.price-number {
+  font-family: 'Segoe UI Bold';
+  font-size: 25px;
+  color: #6fece8;
+  letter-spacing: 1px;
+  margin: 0;
+}
+
+.mob-token-traits-div {
+  display: flex;
+  overflow-x: auto;
+  margin: 30px 0 20px;
+}
+
+.mob-token-traits-div::-webkit-scrollbar {
+  display: none;
+}
+
+.mob-traits {
+  display: block;
+  margin-right: 20px;
+  text-align: center;
+}
+
+p.trait-key {
+  font-family: 'Inter';
+  color: #525252;
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: capitalize !important;
+}
+
+p.trait-value {
+  font-family: 'Inter';
+  color: #fff;
+  font-size: 16px;
+  text-transform: capitalize !important;
+  width: max-content;
+  margin: 0;
+  border: 2px solid #525252;
+  border-radius: 25px;
+  padding: 7px 15px;
+}
+
+.mob-token-btn-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px 0 0;
+}
+
+.bot-glow-svg {
+  width: 30%;
+}
+
+.bot-glow-svg svg {
+  width: 100%;
+  height: auto;
+}
+
+a.glow-btn {
+  background-color: #6fece8;
+  width: 65%;
+  text-align: center;
+  padding: 20px 0;
+  color: #292d2c;
+  font-family: 'Poppins Semibold';
+  font-size: 22px;
+  border-radius: 25px;
+  box-shadow: 0 0 25px -5px #6fece8;
+}

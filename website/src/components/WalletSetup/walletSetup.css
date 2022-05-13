@@ -1,0 +1,63 @@
+.wallet-wrapper-container {
+  width: 100%;
+  min-height: 100vh;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:space-around;
+}
+.wallet-wrapper-container > h1 {
+  color: white;
+  font-size: 3em;
+}
+
+.wallet-description {
+  margin-top: 4em;
+  width: 45em;
+  height: 10em;
+  border: 5px solid #68eced;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+.wallet-description > h4 {
+  color: #68eced;
+  font-size: 1.6em;
+  text-align: center;
+  width: 70%;
+  text-transform: uppercase;
+}
+
+.wallet-download-btn {
+  margin-top: 4em;
+  width: 24em;
+  height: 10em;
+  background-color: #68eced;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+.wallet-download-btn > h1 {
+  width: 80%;
+}
+.wallet-indicator {
+  margin-top: 4em;
+  display: flex;
+  width: 15em;
+  height: 3em;
+  border-radius: 10px;
+  border: 3px solid #68eced;
+  align-items: center;
+  justify-content: space-between;
+}
+.indicator {
+  width: 7em;
+  height: 3em;
+}
+.indicator-active {
+  background-color: #68eced;
+  border-radius: 10px;
+}

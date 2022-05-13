@@ -1,0 +1,282 @@
+@media screen and (max-width: 3140px) {
+}
+
+.bot-switch-div {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+  align-items: center;
+}
+
+.div-btn {
+  width: 18%;
+  color: #fff;
+  text-align: center;
+  border: 4px solid #fff;
+  border-radius: 30px;
+  padding: 5px 0;
+  font-size: 18px;
+  font-family: 'Poppins Semibold';
+}
+
+.div-btn.blue {
+  color: #000;
+  border-color: #68eced;
+  background-color: #68eced;
+  cursor: pointer;
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  font-family: 'Poppins Semibold';
+  font-size: 40px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.attribute-section h1 {
+  font-family: 'Poppins Semibold';
+  font-size: 20px;
+  color: #68eced;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 20px;
+}
+
+.attribute-list {
+  display: block;
+  width: 80%;
+  margin: 20px auto 0;
+}
+
+.list-block {
+  display: block;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.list-block h4 {
+  text-align: center;
+  font-family: 'Poppins Semibold';
+  font-size: 18px;
+  color: aqua;
+  text-transform: uppercase;
+}
+
+ul.listings {
+  margin-left: 1rem;
+  text-align: center;
+}
+
+li.list-item {
+  font-family: 'Poppins';
+  font-size: 16px;
+  color: aqua;
+}
+
+.attribute-btn-div button.show-attribute-btn svg {
+  fill: #68eced !important;
+}
+
+.magic-table {
+  max-height: calc(100vh - 170px);
+  min-height: 50vh;
+  margin-bottom: 0;
+  padding-bottom: 5vh;
+}
+
+p.table-data a {
+  color: #68cede;
+  text-transform: none !important;
+}
+
+svg.delete-icon.svg-inline--fa.fa-w-14 {
+  width: 25px;
+  height: auto;
+  cursor: pointer;
+}
+
+svg.delete-icon.svg-inline--fa.fa-w-14 path {
+  fill: #68cede;
+}
+
+@media screen and (max-width: 5140px) {
+  .bot-switch-div {
+    margin-bottom: 80px;
+  }
+  .div-btn {
+    width: 21%;
+    border-radius: 90px;
+    padding: 18px 0;
+    font-size: 70px;
+  }
+  .head {
+    font-size: 90px;
+    letter-spacing: 1.5px;
+  }
+  .attribute-btn-div button.show-attribute-btn svg {
+    width: 50px;
+    height: auto;
+  }
+  .attribute-section h1 {
+    font-size: 50px;
+    margin: 30px;
+  }
+  .list-block h4 {
+    font-size: 45px;
+  }
+  li.list-item {
+    font-size: 35px;
+  }
+}
+
+@media screen and (max-width: 4540px) {
+  .div-btn {
+    width: 21%;
+    border-radius: 70px;
+    padding: 15px 0;
+    font-size: 60px;
+  }
+}
+
+@media screen and (max-width: 3540px) {
+  .div-btn {
+    width: 22%;
+    padding: 15px 0;
+    font-size: 50px;
+  }
+  .head {
+    font-size: 80px;
+    letter-spacing: 1.5px;
+  }
+  .attribute-section h1 {
+    font-size: 40px;
+    margin: 20px;
+  }
+  .list-block h4 {
+    font-size: 35px;
+  }
+  li.list-item {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 3140px) {
+  .bot-switch-div {
+    margin-bottom: 70px;
+  }
+
+  .div-btn {
+    font-size: 40px;
+  }
+
+  .head {
+    font-size: 70px;
+    letter-spacing: 1px;
+  }
+}
+
+@media screen and (max-width: 2750px) {
+  .div-btn {
+    font-size: 35px;
+    width: 25%;
+    padding: 12px 0;
+  }
+  .head {
+    font-size: 50px;
+    letter-spacing: 1px;
+  }
+  .attribute-section h1 {
+    font-size: 30px;
+    margin: 15px;
+  }
+  .list-block h4 {
+    font-size: 27px;
+  }
+  li.list-item {
+    font-size: 20px;
+  }
+  .attribute-btn-div button.show-attribute-btn svg {
+    width: 25px;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 1940px) {
+  .div-btn {
+    font-size: 22px;
+    width: 21%;
+    padding: 5px 0;
+  }
+  .head {
+    font-size: 35px;
+  }
+  .bot-switch-div {
+    margin-bottom: 30px;
+  }
+  .attribute-section h1 {
+    font-size: 22px;
+    margin: 10px;
+  }
+  li.list-item {
+    font-size: 14px;
+  }
+  .list-block h4 {
+    font-size: 16px;
+  }
+  button.my-btn {
+    font-size: 30px !important;
+    padding: 10px 50px !important;
+  }
+}
+
+@media screen and (max-width: 1500px) {
+  .head {
+    font-size: 35px;
+  }
+  .div-btn {
+    font-size: 20px;
+    width: 21%;
+    padding: 7px 0;
+  }
+  .head {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 552px) {
+  .bot-switch-div {
+    display: block;
+    margin: 0;
+  }
+  .div-btn {
+    width: auto;
+    font-size: 18px;
+    margin: 20px 0;
+  }
+
+  .head {
+    display: block;
+    font-size: 30px;
+    text-align: center;
+    margin: 20px 0;
+  }
+  button.my-btn {
+    font-size: 25px !important;
+    width: 100% !important;
+    margin: 30px auto !important;
+    padding: 10px 0 !important;
+  }
+  .attribute-section h1 {
+    font-size: 18px;
+    margin: 0px;
+  }
+  .list-block h4 {
+    font-size: 14px;
+  }
+  ul.listing li.list-item {
+    font-size: 12px;
+  }
+}

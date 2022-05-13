@@ -1,0 +1,201 @@
+.error-boundary {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  background-image: url('../../utils/images/error-background.webp');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+  position: relative;
+  z-index: 10000;
+}
+
+.middle-section {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.error-content {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.error-content .content {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h1.err-head {
+  font-family: 'Poppins SemiBold';
+  color: #fff;
+  margin: 0;
+}
+
+h2.err-sub-head {
+  font-family: 'Poppins';
+  color: #fff;
+  font-weight: 500;
+  margin: 0;
+}
+
+p.err-para {
+  font-family: 'Poppins';
+  color: #a1a4a9;
+  line-height: 35px;
+}
+
+.went-wrong-icon {
+  width: 50%;
+}
+
+.went-wrong-icon svg {
+  width: 100%;
+  height: auto;
+}
+
+button.went-back-btn {
+  display: flex;
+  width: fit-content;
+  background-color: #71ced0;
+  border-radius: 30px;
+  font-family: 'Montserrat';
+  color: #141b28;
+  font-weight: 600;
+  align-items: center;
+  padding: 8px 15px;
+  border: none;
+}
+
+span.back-arrow {
+  display: flex;
+  align-items: center;
+  margin-right: 6px;
+}
+
+span.back-arrow svg {
+  width: 100%;
+  height: auto;
+}
+
+@media screen and (max-width: 5140px) {
+  h1.err-head {
+    font-size: 130px;
+  }
+  h2.err-sub-head {
+    font-size: 60px;
+  }
+  p.err-para {
+    margin: 45px 0;
+    font-size: 40px;
+    line-height: 85px;
+  }
+  button.went-back-btn {
+    border-radius: 60px;
+    padding: 20px 50px;
+    font-size: 40px;
+  }
+  span.back-arrow {
+    margin-right: 15px;
+    width: 35px;
+  }
+}
+
+@media screen and (max-width: 3540px) {
+  h1.err-head {
+    font-size: 110px;
+  }
+  h2.err-sub-head {
+    font-size: 60px;
+  }
+  p.err-para {
+    margin: 30px 0;
+    font-size: 35px;
+    line-height: 60px;
+  }
+  button.went-back-btn {
+    border-radius: 45px;
+    padding: 20px 50px;
+    font-size: 30px;
+  }
+  span.back-arrow {
+    margin-right: 10px;
+    width: 25px;
+  }
+}
+
+@media screen and (max-width: 2700px) {
+  h1.err-head {
+    font-size: 60px;
+  }
+  h2.err-sub-head {
+    font-size: 40px;
+  }
+  p.err-para {
+    margin: 25px 0;
+    font-size: 22px;
+    line-height: 40px;
+  }
+  button.went-back-btn {
+    border-radius: 35px;
+    padding: 12px 20px;
+    font-size: 20px;
+  }
+  span.back-arrow {
+    width: 20px;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 1960px) {
+  h1.err-head {
+    font-size: 40px;
+  }
+  h2.err-sub-head {
+    font-size: 30px;
+  }
+  p.err-para {
+    margin: 20px 0;
+    font-size: 16px;
+    line-height: 35px;
+  }
+  button.went-back-btn {
+    border-radius: 30px;
+    padding: 8px 15px;
+    font-size: 16px;
+  }
+  span.back-arrow {
+    width: 14px;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 552px) {
+  .middle-section {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .error-content {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+  }
+  .error-content .content {
+    width: 100%;
+    text-align: center;
+  }
+
+  button.went-back-btn {
+    margin: 0 auto;
+  }
+  .went-wrong-icon {
+    width: 95%;
+    margin: 30px auto;
+  }
+}

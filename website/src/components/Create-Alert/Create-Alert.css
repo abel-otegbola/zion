@@ -1,0 +1,196 @@
+form.create-alert-form {
+  width: 450px;
+  margin: 30px auto;
+}
+
+.cross-button {
+  display: block;
+}
+
+.cross-button svg {
+  width: 100px;
+  height: auto;
+  cursor: pointer !important;
+}
+.cross-button svg path {
+  fill: #68eced;
+}
+
+form.create-alert-form h1.primary-header.alert-head {
+  margin: 0;
+}
+
+.text-field,
+.toggles {
+  margin-top: 30px !important;
+}
+
+.create-alert.input-label,
+label.MuiInputLabel-root.MuiInputLabel-animated.MuiFormLabel-root.MuiFormLabel-colorPrimary.input-label.css-9npbnl-MuiFormLabel-root-MuiInputLabel-root {
+  font-family: 'Poppins';
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #fff;
+  margin: 50px 0 10px;
+}
+
+label#outlined-basic-label,
+label#combo-box-demo-label {
+  font-family: 'Poppins';
+  color: rgba(250, 250, 250, 40%);
+  font-size: 14px;
+}
+
+.text-field input::placeholder {
+  font-size: 30px;
+  text-align: center;
+  font-family: 'Poppins SemiBold';
+  color: #68eced;
+  opacity: 0.5;
+  text-transform: uppercase;
+}
+
+.text-field fieldset {
+  border: 5px solid #68eced;
+  border-radius: 12px;
+}
+
+.text-field fieldset legend {
+  display: none !important;
+}
+
+.text-field:hover fieldset {
+  border-color: rgba(250, 250, 250, 40%);
+}
+
+input#outlined-basic,
+input#combo-box-demo {
+  font-family: Poppins;
+  font-size: 30px;
+  font-family: 'Poppins Semibold';
+  color: #68eced;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.check-label span {
+  font-family: 'Poppins';
+  font-size: 14px;
+  color: #fff;
+}
+
+svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.css-i4bv87-MuiSvgIcon-root {
+  fill: rgba(250, 250, 250, 30%);
+}
+
+.toggles.create-alert {
+  width: 100%;
+}
+
+.toggles.create-alert button {
+  width: 50%;
+  font-family: 'Poppins SemiBold';
+  font-size: 30px;
+  text-transform: uppercase;
+  color: #68eced;
+  border: 5px solid #68eced;
+}
+
+.toggles.create-alert button.active {
+  color: #000;
+  background-color: #68eced;
+}
+
+.create-btn.my-btn.submit-btn {
+  width: 250px;
+  padding: 12px 0;
+  text-transform: uppercase;
+  border: 1px solid #68eced !important;
+  font-family: 'Poppins Semibold';
+  font-size: 30px;
+  border-radius: 30px;
+  margin: 40px auto;
+}
+
+.check-label span.check-box svg {
+  fill: #1a38fd;
+}
+
+span.MuiInputLabel-asterisk.MuiFormLabel-asterisk.css-wgai2y-MuiFormLabel-asterisk {
+  display: none;
+}
+
+.PhoneInputCountrySelectArrow {
+  border-color: rgba(250, 250, 250, 0.5);
+  width: 7px;
+  height: 7px;
+  display: flex;
+}
+
+.PhoneInput {
+  margin-top: 25px;
+  border: 5px solid #68eced;
+  border-radius: 12px;
+  padding: 0 5px;
+  width: 100%;
+}
+
+.PhoneInputCountry {
+  border-right: 5px solid #68eced;
+  padding: 0;
+}
+
+.PhoneInputCountrySelectArrow {
+  margin-left: 10px !important;
+  border-color: rgba(250, 250, 250, 0.5) !important;
+  width: 7px !important;
+  height: 7px !important;
+  margin-bottom: 5px !important;
+}
+
+input.PhoneInputInput {
+  background-color: transparent;
+  color: #68eced;
+  border: none;
+  padding: 16.5px 14px;
+  font-family: 'Poppins SemiBold';
+  font-size: 30px;
+}
+
+input.PhoneInputInput:focus-visible {
+  outline: none;
+}
+
+.PhoneInputCountry {
+  width: 12%;
+}
+
+.PhoneInputCountryIcon.PhoneInputCountryIcon--border {
+  width: 100%;
+  height: auto;
+}
+
+@media screen and (min-width: 1940px) and (max-width: 5140px) {
+  .text-field input::placeholder,
+  input.PhoneInputInput::placeholder {
+    font-size: 60px;
+  }
+}
+
+@media screen and (max-width: 552px) {
+  form.create-alert-form {
+    width: auto !important;
+    margin: 0 auto !important;
+  }
+
+  .create-btn.my-btn.submit-btn {
+    width: 100% !important;
+    padding: 10px 0 !important;
+    font-size: 25px !important;
+    margin: 35px auto !important;
+  }
+
+  .text-field input::placeholder {
+    font-size: 20px !important;
+  }
+}

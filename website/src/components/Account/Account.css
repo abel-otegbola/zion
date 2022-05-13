@@ -1,0 +1,24 @@
+.account-tab {
+  color: aqua !important;
+  width: 33%;
+  font-size: 1.3rem!important;
+  text-align: center;
+  font-weight: bold!important;
+}
+.heading_box {
+  width: 100%;
+  display: grid;
+  place-content: center;
+  margin-bottom: 5em;
+}
+.heading_box>h1{
+    color:aqua;
+    margin-left:0;
+    width:100%;
+
+}
+.Mui-selected {
+    border:1px solid cyan!important;
+    border-radius: 20px!important;
+    padding:10px;
+}

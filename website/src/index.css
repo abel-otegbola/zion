@@ -1,0 +1,111 @@
+body {
+  margin: 0;
+
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #0c0c0c !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* #root {
+  overflow: auto;
+  max-height: 100vh;
+} */
+
+#root::-webkit-scrollbar {
+  display: none;
+}
+
+#root::-webkit-scrollbar {
+  display: none;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('./utils/fonts/Poppins-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Poppins Semibold';
+  src: url('./utils/fonts/Poppins-SemiBold.ttf');
+}
+
+@font-face {
+  font-family: 'Poppins Bold';
+  src: url('./utils/fonts/Poppins-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('./utils/fonts/Montserrat-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Montserrat Semibold';
+  src: url('./utils/fonts/Montserrat-SemiBold.ttf');
+}
+
+@font-face {
+  font-family: 'Montserrat Bold';
+  src: url('./utils/fonts/Montserrat-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'Middle Ages';
+  src: url('./utils/fonts/MiddleAgesDeco_PERSONAL_USE.ttf');
+}
+
+@font-face {
+  font-family: 'Old English';
+  src: url('./utils/fonts/OldEnglishFive.ttf');
+}
+
+@font-face {
+  font-family: 'Parisienne';
+  src: url('./utils/fonts/Parisienne-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Black Chancery';
+  src: url('./utils/fonts/blackchancery.regular.ttf');
+}
+
+@font-face {
+  font-family: 'Abel';
+  src: url('./utils/fonts/Abel-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Segoe UI';
+  src: url('./utils/fonts/Segoe.ttf');
+}
+
+@font-face {
+  font-family: 'Segoe UI Bold';
+  src: url('./utils/fonts/SegoeBold.ttf');
+}
+
+@font-face {
+  font-family: 'Myriad Pro';
+  src: url('./utils/fonts/MYRIADPRO-REGULAR.woff');
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@media screen and (max-width: 552px) {
+  body {
+    height: auto;
+  }
+}

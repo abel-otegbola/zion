@@ -1,0 +1,629 @@
+h1.token-name-head,
+.grad-box .val-txt {
+  font-family: 'Poppins Semibold';
+  color: #fff;
+  margin: 0;
+  margin-bottom: 10px;
+  line-height: initial;
+}
+
+p.marketplace {
+  font-family: 'Poppins Semibold';
+  color: #6a8888;
+  font-size: 18px;
+}
+
+.token-rank-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.grad-box {
+  display: block;
+  width: 46%;
+  background-image: linear-gradient(
+    45deg,
+    transparent 0%,
+    rgba(106, 136, 136, 50%)
+  );
+}
+
+.grad-box p.head {
+  font-family: 'Poppins Semibold';
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: #6a8888;
+  text-transform: capitalize;
+  margin: 0;
+}
+
+.head span {
+  display: flex;
+  align-items: center;
+  margin-right: 3px;
+}
+
+.token-tabs .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn,
+.token-tabs .ant-tabs-tab .ant-tabs-tab-btn {
+  font-family: 'Poppins';
+  color: #6a8888;
+  line-height: initial;
+}
+
+.ant-tabs-top > .ant-tabs-nav::before {
+  bottom: 0;
+  border-bottom: 1px solid rgba(106, 136, 136, 0.9) !important;
+}
+
+p.token-desc {
+  font-family: 'Poppins';
+  color: #fffbf9;
+  line-height: initial;
+}
+
+img.profile-img {
+  box-shadow: 0 0px 60px -30px #6fece8;
+  filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 25%));
+}
+
+.attributes {
+  border-top: 5px solid white;
+  width: 89%;
+}
+
+.info-grids {
+  border: 1px solid rgba(100, 128, 128, 0.5);
+  height: 100%;
+}
+
+button.token-buy-btn {
+  color: #292d2c;
+  font-family: 'Poppins Semibold';
+  background-color: #6fece8;
+}
+
+button.token-buy-btn:hover {
+  background-color: #41d9d4;
+}
+
+.token-buy-div {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 3rem 0;
+}
+
+.token-bot-div {
+  border: 2px solid #6fece8;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.token-head-skel {
+  margin-left: 0 !important;
+  width: 40% !important;
+}
+
+button.my-btn {
+  font-family: 'Poppins Semibold';
+  font-size: 26px;
+  width: 250px;
+  border-radius: 30px;
+  background: #68cede;
+  margin: 40px auto 0 auto;
+  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #181818;
+}
+
+button.my-btn:hover {
+  background-color: #68cede;
+}
+
+p.type {
+  font-family: 'Poppins Semibold';
+  color: #648080;
+  text-transform: capitalize;
+}
+
+p.type-cat {
+  font-family: 'Poppins Semibold';
+  color: #fff;
+  margin: 0;
+  text-transform: capitalize;
+}
+
+.left-arrow-button svg {
+  width: 100px;
+  height: auto;
+  cursor: pointer !important;
+}
+
+.left-arrow-button svg path {
+  fill: #68eced;
+}
+
+.token-tabs .ant-tabs-ink-bar.ant-tabs-ink-bar-animated {
+  background-image: radial-gradient(
+    161.69% 1398.11% at 164.29% -29.17%,
+    rgba(104, 236, 237, 0.9) 0%,
+    rgba(12, 12, 12, 1) 100%
+  );
+  border-radius: 10px;
+  height: 3px;
+}
+
+@media screen and (max-width: 5140px) {
+  #token-view-container.token-view-container {
+    max-width: 3200px;
+    margin-top: 90px;
+  }
+
+  img.profile-img {
+    border-radius: 50px;
+  }
+
+  h1.token-name-head,
+  .grad-box .val-txt {
+    font-size: 80px;
+    letter-spacing: 0.5px;
+  }
+
+  .token-rank-price {
+    margin: 60px 0;
+  }
+
+  .grad-box {
+    border-radius: 20px;
+    padding: 20px 40px;
+  }
+
+  .grad-box p.head {
+    font-size: 35px;
+  }
+
+  .grad-box p.head svg {
+    width: 45px;
+    height: auto;
+  }
+
+  p.marketplace {
+    font-size: 36px;
+  }
+
+  p.marketplace span svg {
+    width: 46px;
+    height: auto;
+  }
+
+  .token-tabs .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn,
+  .token-tabs .ant-tabs-tab .ant-tabs-tab-btn {
+    font-size: 36px;
+    letter-spacing: 0.5px;
+  }
+
+  .token-tabs .ant-tabs-content-holder {
+    margin-top: 50px;
+  }
+
+  p.token-desc {
+    font-size: 36px;
+    letter-spacing: 0.5px;
+    margin-bottom: 40px;
+  }
+
+  .left-arrow-button svg {
+    width: 130px;
+  }
+
+  p.type {
+    font-size: 36px;
+    margin: 0 0px 20px;
+  }
+
+  p.type-cat {
+    font-size: 50px;
+    margin-bottom: 15px;
+  }
+  .info-grids {
+    border-radius: 24px;
+    padding: 30px 40px;
+  }
+  .token-buy-div {
+    margin: 4rem 0;
+  }
+  .token-bot-div {
+    padding: 38px 70px;
+    margin-right: 2.5rem;
+  }
+  .token-bot-div svg {
+    width: 90px;
+    height: auto;
+  }
+  button.token-buy-btn {
+    border-radius: 20px;
+    padding: 40px 150px;
+    font-size: 40px;
+  }
+  .token-head-skel {
+    height: 3rem !important;
+  }
+  .token-img-skel {
+    height: 40rem !important;
+  }
+}
+
+@media screen and (max-width: 3540px) {
+  #token-view-container.token-view-container {
+    max-width: 2550px;
+    margin-top: 70px;
+  }
+
+  img.profile-img {
+    border-radius: 50px;
+  }
+
+  h1.token-name-head,
+  .grad-box .val-txt {
+    font-size: 60px;
+    letter-spacing: 0.5px;
+  }
+
+  .token-rank-price {
+    margin: 60px 0;
+  }
+
+  .grad-box {
+    border-radius: 20px;
+    padding: 10px 30px;
+  }
+
+  .grad-box p.head {
+    font-size: 26px;
+  }
+
+  .grad-box p.head svg {
+    width: 38px;
+    height: auto;
+  }
+
+  p.marketplace {
+    font-size: 28px;
+  }
+
+  p.marketplace span svg {
+    width: 38px;
+    height: auto;
+  }
+
+  .token-tabs .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn,
+  .token-tabs .ant-tabs-tab .ant-tabs-tab-btn {
+    font-size: 26px;
+    letter-spacing: 0.5px;
+  }
+
+  .token-tabs .ant-tabs-content-holder {
+    margin-top: 50px;
+  }
+
+  p.token-desc {
+    font-size: 26px;
+    letter-spacing: 0.5px;
+    margin-bottom: 40px;
+  }
+
+  .left-arrow-button svg {
+    width: 130px;
+  }
+
+  p.type {
+    font-size: 26px;
+    margin: 0 0px 10px;
+  }
+
+  p.type-cat {
+    font-size: 38px;
+    margin-bottom: 5px;
+  }
+  .info-grids {
+    border-radius: 24px;
+    padding: 20px 25px;
+  }
+  .token-buy-div {
+    margin: 4rem 0;
+  }
+  .token-bot-div {
+    padding: 26px 55px;
+    margin-right: 1.5rem;
+  }
+  .token-bot-div svg {
+    width: 70px;
+    height: auto;
+  }
+  button.token-buy-btn {
+    border-radius: 20px;
+    padding: 30px 100px;
+    font-size: 30px;
+  }
+  .token-head-skel {
+    height: 2.5rem !important;
+  }
+  .token-img-skel {
+    height: 35rem !important;
+  }
+}
+
+@media screen and (max-width: 2700px) {
+  #token-view-container.token-view-container {
+    max-width: 2200px;
+    margin-top: 70px;
+  }
+
+  img.profile-img {
+    border-radius: 50px;
+  }
+
+  h1.token-name-head,
+  .grad-box .val-txt {
+    font-size: 50px;
+    letter-spacing: 0.5px;
+  }
+
+  .token-rank-price {
+    margin: 60px 0;
+  }
+
+  .grad-box {
+    border-radius: 20px;
+    padding: 10px 30px;
+  }
+
+  .grad-box p.head {
+    font-size: 20px;
+  }
+
+  .grad-box p.head svg {
+    width: 35px;
+    height: auto;
+  }
+
+  p.marketplace {
+    font-size: 24px;
+  }
+
+  p.marketplace span svg {
+    width: 28px;
+    height: auto;
+  }
+
+  .token-tabs .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn,
+  .token-tabs .ant-tabs-tab .ant-tabs-tab-btn {
+    font-size: 20px;
+    letter-spacing: 0.5px;
+  }
+
+  .token-tabs .ant-tabs-content-holder {
+    margin-top: 50px;
+  }
+
+  p.token-desc {
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    margin-bottom: 20px;
+  }
+
+  .left-arrow-button svg {
+    width: 130px;
+  }
+
+  p.type {
+    font-size: 18px;
+    margin: 0 0px 10px;
+  }
+
+  p.type-cat {
+    font-size: 28px;
+    margin-bottom: 5px;
+  }
+  .info-grids {
+    border-radius: 24px;
+    padding: 15px 25px;
+  }
+  .token-buy-div {
+    margin: 3rem 0;
+  }
+  .token-bot-div {
+    padding: 18px 40px;
+    margin-right: 1.5rem;
+  }
+  .token-bot-div svg {
+    width: 50px;
+    height: auto;
+  }
+  button.token-buy-btn {
+    border-radius: 20px;
+    padding: 25px 75px;
+    font-size: 20px;
+  }
+  .token-head-skel {
+    height: 2.5rem !important;
+  }
+  .token-img-skel {
+    height: 32rem !important;
+  }
+}
+
+@media screen and (max-width: 2120px) {
+  #token-view-container.token-view-container {
+    max-width: 1500px;
+    margin-top: 50px;
+  }
+
+  img.profile-img {
+    border-radius: 35px;
+  }
+
+  h1.token-name-head,
+  .grad-box .val-txt {
+    font-size: 35px;
+    letter-spacing: 0.5px;
+  }
+
+  .token-rank-price {
+    margin: 60px 0;
+  }
+
+  .grad-box {
+    border-radius: 20px;
+    padding: 10px 30px;
+  }
+
+  .grad-box p.head {
+    font-size: 14px;
+  }
+
+  p.marketplace {
+    font-size: 18px;
+  }
+
+  p.marketplace span svg {
+    width: 23px;
+    height: auto;
+  }
+
+  .token-tabs .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn,
+  .token-tabs .ant-tabs-tab .ant-tabs-tab-btn {
+    font-size: 14px;
+    letter-spacing: 0.5px;
+  }
+
+  .token-tabs .ant-tabs-content-holder {
+    margin-top: 50px;
+  }
+
+  p.token-desc {
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    margin-bottom: 15px;
+  }
+
+  .left-arrow-button svg {
+    width: 70px;
+  }
+
+  p.type {
+    font-size: 14px;
+    margin: 0 0px 10px;
+  }
+
+  p.type-cat {
+    font-size: 24px;
+    margin-bottom: 5px;
+  }
+  .info-grids {
+    border-radius: 24px;
+    padding: 15px 15px;
+  }
+  .token-buy-div {
+    margin: 3rem 0;
+  }
+  .token-bot-div {
+    padding: 10px 25px;
+    margin-right: 1rem;
+  }
+  button.token-buy-btn {
+    border-radius: 20px;
+    padding: 18px 60px;
+    font-size: 18px;
+  }
+  .token-head-skel {
+    height: 2rem !important;
+  }
+  .token-img-skel {
+    height: 30rem !important;
+  }
+}
+
+@media screen and (max-width: 1500px) {
+  #token-view-container.token-view-container {
+    max-width: 1200px;
+    margin-top: 50px;
+  }
+
+  img.profile-img {
+    border-radius: 35px;
+  }
+
+  h1.token-name-head,
+  .grad-box .val-txt {
+    font-size: 32px;
+    letter-spacing: 0.5px;
+  }
+
+  .token-rank-price {
+    margin: 40px 0;
+  }
+
+  .grad-box {
+    border-radius: 20px;
+    padding: 10px 30px;
+  }
+
+  .grad-box p.head {
+    font-size: 14px;
+  }
+
+  p.marketplace {
+    font-size: 16px;
+  }
+
+  p.marketplace span svg {
+    width: 21px;
+    height: auto;
+  }
+
+  .token-tabs .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn,
+  .token-tabs .ant-tabs-tab .ant-tabs-tab-btn {
+    font-size: 14px;
+    letter-spacing: 0.5px;
+  }
+
+  .token-tabs .ant-tabs-content-holder {
+    margin-top: 30px;
+  }
+
+  p.token-desc {
+    font-size: 14px;
+    letter-spacing: 0.5px;
+  }
+
+  .left-arrow-button svg {
+    width: 60px;
+  }
+
+  p.type {
+    font-size: 14px;
+    margin: 0 0px 8px;
+  }
+
+  p.type-cat {
+    font-size: 22px;
+    margin-bottom: 5px;
+  }
+  .info-grids {
+    border-radius: 24px;
+    padding: 15px 15px;
+  }
+  .token-buy-div {
+    margin: 1.5rem 0 2rem;
+  }
+  button.token-buy-btn {
+    border-radius: 15px;
+    padding: 18px 50px;
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,32 @@
+.contaainer {
+    position: relative;
+  }
+  
+  .page {
+    position: absolute;
+    left: 15px;
+    right: 15px;
+  }
+  
+  .page-enter {
+    opacity: 0;
+    transform: translateY(100%);
+    transition: opacity 500ms ease-out, transform 500ms ease-out;
+  }
+  
+  .page-enter-done {
+    opacity: 1;
+    transition: opacity 500ms ease-out, transform 500ms ease-out;
+  }
+  
+  .page-exit {
+    opacity: 0;
+    transform: transformY(200%);
+    transition: opacity 500ms, transform 500ms ease-out;
+  }
+  
+  .page-exit-done {
+    opacity: 0;
+    transition: transform 500ms ease-out;
+  }
+  

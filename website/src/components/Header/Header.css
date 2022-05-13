@@ -1,0 +1,153 @@
+.zion-appbar,
+.header-right-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: transparent;
+}
+
+a.tabs-link {
+  font-family: 'Poppins';
+  color: #fff;
+  margin-right: 30px;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 5140px) {
+  .zion-appbar {
+    padding-top: 100px;
+  }
+
+  .zion-appbar .header-logo svg {
+    width: 400px;
+    height: auto;
+  }
+
+  .zion-appbar .zion-profile-section svg {
+    width: 120px;
+    height: auto;
+  }
+  a.tabs-link {
+    font-size: 35px;
+  }
+}
+
+@media screen and (max-width: 4540px) {
+  .zion-appbar {
+    padding-top: 80px;
+  }
+  .zion-appbar .header-logo svg {
+    width: 330px;
+    height: auto;
+  }
+  .zion-appbar .zion-profile-section svg {
+    width: 100px;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 3540px) {
+  .zion-appbar {
+    padding-top: 70px;
+  }
+  .zion-appbar .header-logo svg {
+    width: 220px;
+    height: auto;
+  }
+  .zion-appbar .zion-profile-section svg {
+    width: 65px;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 2700px) {
+  .zion-appbar {
+    padding-top: 60px;
+  }
+
+  .zion-appbar .zion-profile-section svg {
+    width: 55px;
+    height: auto;
+  }
+  .zion-appbar .header-logo svg {
+    width: 200px;
+    height: auto;
+  }
+  a.tabs-link {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 1960px) {
+  .zion-appbar {
+    padding-top: 25px;
+  }
+
+  .zion-appbar .zion-profile-section svg {
+    width: 35px;
+    height: auto;
+  }
+  .zion-appbar .header-logo svg {
+    width: 124px;
+    height: auto;
+  }
+  a.tabs-link {
+    margin-right: 30px;
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 552px) {
+  a.tabs-link {
+    margin-right: 10px;
+    font-size: 15px;
+  }
+  .drawer-paper {
+    width: 100%;
+    background: #0c0c0c !important;
+  }
+  .drawer-list li.list-item {
+    text-align: center;
+  }
+  .drawer-list li.list-item span {
+    font-family: 'Poppins';
+    font-size: 20px;
+    transition: all 0.3s;
+  }
+  .drawer-list li.list-item span:hover,
+  .drawer-list li.list-item.active span {
+    font-size: 30px;
+  }
+
+  .drawer-close {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 20px 20px;
+  }
+
+  .drawer-close span {
+    cursor: pointer;
+  }
+
+  .drawer-close span svg {
+    width: 25px;
+    height: auto;
+  }
+  .drawer-close span svg path {
+    fill: #68cede;
+  }
+  li.mobile-menu-item {
+    font-family: 'Poppins';
+    font-size: 20px;
+    padding: 0 30px !important;
+    color: #68cede;
+    margin: 0;
+  }
+  .mobile-menu-paper {
+    top: 50px !important;
+    left: calc(100vw - 150px) !important;
+    border: 0.5px solid #fff !important;
+    border-radius: 15px !important;
+  }
+}
